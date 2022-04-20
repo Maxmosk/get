@@ -1,0 +1,2 @@
+Average frequency: 0.0818381027202701 s 
+Discretization is 0.012890625 V
