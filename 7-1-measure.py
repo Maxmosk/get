@@ -62,7 +62,7 @@ try:
         n = adc()
         set_volume(n)
         values.append(n)
-        print(f"n={n}    ", end='\r')
+        print(f"n={n}    V={n*3.3/256}", end='\r')
         if n >= highest * 255:
             break
 
@@ -77,7 +77,7 @@ try:
         n = adc()
         set_volume(n)
         values.append(n)
-        print(f"n={n}    ", end='\r')
+        print(f"n={n}    V={n*3.3/256}", end='\r')
         if n <= lowest * 255:
             break
 
